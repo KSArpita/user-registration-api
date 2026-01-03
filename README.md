@@ -33,3 +33,15 @@ error responses instead of exposing internal details.
 ## 📌 API Endpoint
 
 ### Register User
+
+## 📸 API Screenshots
+
+### ✅ Successful Registration (201 Created)
+![Successful Registration](screenshots/register-success.png)
+
+### ❌ Validation Error (400 Bad Request)
+![Validation Error](screenshots/validation-error.png)
+
+### ⚠️ Duplicate Email (409 Conflict)
+![Duplicate Email](screenshots/duplicate-email.png)
+
