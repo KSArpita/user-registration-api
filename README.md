@@ -33,16 +33,20 @@ error responses instead of exposing internal details.
 ## 📌 API Endpoint
 
 ### Register User
+
 **POST** `/api/users/register`
 
-#### Request Body
+**Request Body**
+```json
 {
   "name": "John Doe",
   "email": "john@example.com",
   "password": "password123"
 }
+```
 
-Success Response (201 Created)
+**Success Response (201 Created)**
+```json
 {
   "status": 201,
   "message": "User registered successfully",
@@ -53,6 +57,7 @@ Success Response (201 Created)
   },
   "timestamp": "2026-01-02T22:02:23"
 }
+```
 
 ## 📸 API Screenshots
 
