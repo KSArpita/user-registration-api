@@ -33,6 +33,26 @@ error responses instead of exposing internal details.
 ## 📌 API Endpoint
 
 ### Register User
+**POST** `/api/users/register`
+
+#### Request Body
+{
+  "name": "John Doe",
+  "email": "john@example.com",
+  "password": "password123"
+}
+
+Success Response (201 Created)
+{
+  "status": 201,
+  "message": "User registered successfully",
+  "data": {
+    "id": 1,
+    "name": "John Doe",
+    "email": "john@example.com"
+  },
+  "timestamp": "2026-01-02T22:02:23"
+}
 
 ## 📸 API Screenshots
 
@@ -44,4 +64,5 @@ error responses instead of exposing internal details.
 
 ### ⚠️ Duplicate Email (409 Conflict)
 ![Duplicate Email](screenshots/duplicate-email.png)
+
 
