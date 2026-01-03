@@ -63,6 +63,6 @@ Success Response (201 Created)
 ![Validation Error](screenshots/validation-error.png)
 
 ### ⚠️ Duplicate Email (409 Conflict)
-![Duplicate Email](screenshots/duplicate-email.png.png)
+![Duplicate Email](screenshots/duplicate-email.png)
 
 
